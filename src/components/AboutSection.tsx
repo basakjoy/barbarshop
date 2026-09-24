@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { ShieldCheck, Sparkles, Coffee, Clock } from 'lucide-react';
 
 export const AboutSection: React.FC = () => {
@@ -16,7 +16,7 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden liquid-glass-card border border-[#c89b53]/40 shadow-2xl">
               <img
-                src="/src/assets/images/straight_razor_shave_1790225630292.jpg"
+                src="/images/straight_razor_shave_1790225630292.jpg"
                 alt="Traditional Straight Razor Shave Ritual"
                 className="w-full h-[360px] sm:h-[460px] object-cover object-center filter brightness-95"
                 referrerPolicy="no-referrer"
@@ -36,7 +36,7 @@ export const AboutSection: React.FC = () => {
             {/* Overlapping secondary image card on tablet and desktop */}
             <div className="hidden sm:block absolute -bottom-6 -right-6 w-44 h-44 sm:w-52 sm:h-52 rounded-2xl overflow-hidden border-2 border-[#c89b53]/60 shadow-2xl liquid-glass">
               <img
-                src="/src/assets/images/barber_haircut_craft_1790225617790.jpg"
+                src="/images/barber_haircut_craft_1790225617790.jpg"
                 alt="Precision Scissor Detailing"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -126,3 +126,4 @@ export const AboutSection: React.FC = () => {
     </section>
   );
 };
+

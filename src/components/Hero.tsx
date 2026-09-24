@@ -18,7 +18,7 @@ export const Hero: React.FC<HeroProps> = ({
       {/* Background Image with layered scrim for depth */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
-          src="/src/assets/images/hero_barbershop_interior_1790225602482.jpg"
+          src="/images/hero_barbershop_interior_1790225602482.jpg"
           alt="Heritage and Blade Luxury Barbershop Interior"
           className="w-full h-full object-cover object-center scale-105"
           referrerPolicy="no-referrer"

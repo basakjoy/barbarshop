@@ -1,4 +1,4 @@
-import { BarberService, Barber } from '../types';
+﻿import { BarberService, Barber } from '../types';
 
 export const BARBERSHOP_INFO = {
   name: 'Heritage & Blade Barbershop',
@@ -8,7 +8,7 @@ export const BARBERSHOP_INFO = {
   phone: '(555) 728-3920',
   email: 'concierge@heritageandblade.com',
   hours: [
-    { day: 'Monday – Friday', open: '08:00 AM', close: '08:00 PM', timeValue: { open: 8, close: 20 } },
+    { day: 'Monday â€“ Friday', open: '08:00 AM', close: '08:00 PM', timeValue: { open: 8, close: 20 } },
     { day: 'Saturday', open: '09:00 AM', close: '06:00 PM', timeValue: { open: 9, close: 18 } },
     { day: 'Sunday', open: '10:00 AM', close: '05:00 PM', timeValue: { open: 10, close: 17 } },
   ],
@@ -99,7 +99,7 @@ export const BARBERS: Barber[] = [
     experienceYears: 15,
     bio: 'Third-generation barber trained in traditional British scissor geometry and classic American fades. Passionate about enduring craftsmanship and timeless style.',
     specialties: ['Scissor Geometry', 'Executive Styling', 'Classic Pompadours'],
-    avatarUrl: '/src/assets/images/barbershop_team_craft_1790225642946.jpg',
+    avatarUrl: '/images/barbershop_team_craft_1790225642946.jpg',
     instagram: '@marcus.blade',
   },
   {
@@ -109,7 +109,7 @@ export const BARBERS: Barber[] = [
     experienceYears: 10,
     bio: 'Apprenticed in Florence, Leo is known for master-level hot lather straight-edge shaves, meticulous beard sculpting, and facial wellness rituals.',
     specialties: ['Straight-Edge Shaves', 'Beard Architecture', 'Hot Towel Rituals'],
-    avatarUrl: '/src/assets/images/straight_razor_shave_1790225630292.jpg',
+    avatarUrl: '/images/straight_razor_shave_1790225630292.jpg',
     instagram: '@rossi_barberia',
   },
   {
@@ -119,7 +119,7 @@ export const BARBERS: Barber[] = [
     experienceYears: 9,
     bio: 'Master of drop fades, tapers, razor sharp lineups, and multi-textured hair shaping. Known for relentless precision and effortless modern finishes.',
     specialties: ['Skin Fades', 'Textured Crops', 'Razor Lineups'],
-    avatarUrl: '/src/assets/images/barber_haircut_craft_1790225617790.jpg',
+    avatarUrl: '/images/barber_haircut_craft_1790225617790.jpg',
     instagram: '@cole_precision',
   },
   {
@@ -129,7 +129,7 @@ export const BARBERS: Barber[] = [
     experienceYears: 7,
     bio: 'Specializing in medium-to-long scissor styling, modern taper flows, and beard contouring with an eye for natural movement and easy daily maintenance.',
     specialties: ['Modern Flow & Layering', 'Beard Detailing', 'Color Camo'],
-    avatarUrl: '/src/assets/images/hero_barbershop_interior_1790225602482.jpg',
+    avatarUrl: '/images/hero_barbershop_interior_1790225602482.jpg',
     instagram: '@chen_craft',
   },
 ];
@@ -166,3 +166,4 @@ export const PROMO_OFFER = {
   discountPercent: 20,
   description: 'First-Visit Welcome Offer: 20% off any grooming service + complimentary hot towel treatment.',
 };
+
