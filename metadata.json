@@ -1,0 +1,6 @@
+{
+  "name": "Heritage & Blade Barbershop",
+  "description": "Artisanal grooming, precision cuts, and traditional hot-towel straight-razor shaving with seamless online appointment scheduling and calendar sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
